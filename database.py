@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.asyncio import create_async_engine
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:ceng7891@localhost:5432/postgis_33_sample'
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:password@localhost:5432/dbname'
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
 )
