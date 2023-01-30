@@ -1,6 +1,6 @@
 # FastApi-PostGIS-PolygonToCenterLine
 
-CityEngine programında veriye dayalı kural bazlı modelleme çalışırken yol orta hat verisine ihtiyacım oluyordu. İmar planı kararlarını CityEngine programında rule yazarak gelecekte oluşacak dönüşümü göstermek için yol verisi önemliydi. Çünkü sokağa bakan cephelerde değişik plan kararları alınıyordu.
+CityEngine programında veriye dayalı kural bazlı modelleme çalışırken yol orta hat verisine ihtiyacım oluyordu. Cityengine programında plan kararlarının getireceği dönüşümü modellemek için yol verisi önemlidir. Çünkü sokağa bakan cephelerde değişik plan kararları alınıyordu.
 
 İmar planları sayısal verilerinde(genellikle NetCAD yazılımında çiziliyor) yol orta hat bilgisi bulunmuyordu. Biraz araştırma yaptıktan sonra POSTGIS'te bununla ilgili bir fonksiyon olduğunu keşfettim. Fonksiyona [buradan](https://postgis.net/docs/ST_ApproximateMedialAxis.html) ulaşabilirsiniz.
 
